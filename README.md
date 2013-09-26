@@ -1,8 +1,11 @@
-# restclient - RESTful HTTP client for Go
+# restclient - DEPRECATED
 
-Package `restclient` is a [Go](http://golang.org) client library for
+Package `restclient` is a deprecated [Go](http://golang.org) client library for
 interacting with [RESTful
 APIs](http://en.wikipedia.org/wiki/Representational_state_transfer#RESTful_web_APIs).
+It has been replaced by [`napping`](https://github.com/jmcvetta/napping).  All
+bugfixes and new development will occur in `napping`, but `restclient` will
+remain available for some time.
 
 
 ## Status
@@ -10,13 +13,6 @@ APIs](http://en.wikipedia.org/wiki/Representational_state_transfer#RESTful_web_A
 [![Drone Build Status](https://drone.io/github.com/jmcvetta/restclient/status.png)](https://drone.io/github.com/jmcvetta/restclient/latest)
 [![Travis Build Status](https://travis-ci.org/jmcvetta/restclient.png)](https://travis-ci.org/jmcvetta/restclient)
 [![Coverage Status](https://coveralls.io/repos/jmcvetta/restclient/badge.png?branch=master)](https://coveralls.io/r/jmcvetta/restclient)
-
-API is fairly stable, but there may be additions and small changes from time to
-time.  All API changes will be made via Pull Request, so it's recommended you
-Watch the repo Issues if using `restclient` in production.
-
-Used by, and developed in conjunction with, package
-[neoism](https://github.com/jmcvetta/neoism).
 
 
 ## Documentation

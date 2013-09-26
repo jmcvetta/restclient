@@ -17,6 +17,12 @@ import (
 	"time"
 )
 
+func init() {
+	log.Println(`WARNING: Package "github.com/jmcvetta/restclient" is deprecated.`)
+	log.Println(`WARNING: It has been replaced by "github.com/jmcvetta/napping".`)
+	log.Println(`WARNING: All bugfixes and new development will occur in Napping.`)
+}
+
 // A Params is a map containing URL parameters.
 type Params map[string]string
 
